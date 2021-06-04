@@ -100,5 +100,10 @@ python train_classifier.py --add_fc_layers --balance_weights
 python train_classifier.py --add_fc_layers --balance_weights --train_from_scratch
 ```
 
+### Evalution
+
+```
+python eval.py --model_path {} --data_dir {}
+```
 
 
