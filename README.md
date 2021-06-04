@@ -106,7 +106,17 @@ python train_classifier.py --add_fc_layers --balance_weights --train_from_scratc
 python eval.py --model_path {} --data_dir {}
 ```
 
-### Experiment Results
+## Experiment Results
+
+### AutoEncoder Reconstruction
+
+![AutoEncoder Reconstruction](/exp_results/reconstruct_epoch50.png)
+
+### AutoEncoder Training 
+
+![AutoEncoder Training](/exp_results/autoencoder_training.png)
+
+### All experiments results
 
 ![Experiment Results](/exp_results/exp_table_results.png)
 
