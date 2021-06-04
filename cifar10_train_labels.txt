@@ -1,0 +1,10 @@
+bird 1500
+deer 1500
+truck 1500
+airplane 350
+automobile 350
+cat 350
+dog 350
+frog 350
+horse 350
+ship 350
