@@ -106,6 +106,11 @@ python train_classifier.py --add_fc_layers --balance_weights --train_from_scratc
 python eval.py --model_path {} --data_dir {}
 ```
 
-## Experiment Results
+### Experiment Results
 
+![Experiment Results](/exp_results/exp_table_results.png)
+
+### Data Augmentation SGD with prerained auto encoder initialization
+
+![Confusion Matrix](/exp_results/classification_cifar10_confusion_matrix.jpg)
 
