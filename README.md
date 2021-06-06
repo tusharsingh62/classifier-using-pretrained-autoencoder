@@ -9,7 +9,7 @@ docker build -t cifar .
 
 - Create docker container based on above docker image
 ```
-docker run --gpus 0 -it -v $(pwd):/mnt cifar
+docker run --gpus 0 -it -v $(pwd):/mnt -p 8080:8080 cifar
 ```
 
 - Enter docker container and follow the steps to reproduce the experiments results
